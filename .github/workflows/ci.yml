@@ -22,7 +22,7 @@ jobs:
       - name: Check project files
         run: |
           test -f index.html
-          test -f css/style.css
+          test -f CSS/style.css
           test -f scripts/script.js
           echo "All required project files exist."
 
